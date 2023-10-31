@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Playpen+Sans&display=swap');
+:root{
+    --bg-color: #2874f0;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+footer{
+    height: 12vh;
+    background-color: var(--bg-color);
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: larger;
+}
+
+header{
+    background-color: var(--bg-color);
+    font-family: 'Playpen Sans', cursive;
+}
+
+nav ul{
+    display: flex;
+    height: 58px;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    font-weight: bolder;
+}
+
+nav{
+    display: flex;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    width: 150px;
+    padding: 0 20px 0 0;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+}
+
+.search input{
+    width: 30vw;
+    height: 27px;
+    border-radius: 2px;
+    margin-left: 56px;
+    margin-right: 16px;
+    padding: 0 12px
+}
+
+.slider{
+    margin: auto;
+    width: 80vw;
+    margin-top: 12px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.card{
+    max-width: 91vw;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.card h3{
+    margin: 10px 0;
+}
+
+.container{
+    min-height: calc(100vh - 58px - 12vh);
+}
+
+.lines p{
+    text-align: center;
+    font-weight: 100;
+    margin: 2px;
+}
+.card-item{
+    display: inline-flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+    /* text-align: center; */
+    /* width: 8vw;  */
+}
